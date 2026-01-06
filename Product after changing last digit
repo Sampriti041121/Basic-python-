@@ -1,0 +1,9 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+r1 = a % 10
+r2 = b % 10
+
+new1 = (a // 10) * 10 + r2
+new2 = (b // 10) * 10 + r1
+
+print("Product =", new1 * new2)
